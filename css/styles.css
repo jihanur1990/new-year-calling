@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 700;
+    margin: 0px;
+    }
+
+h2{
+   font-size: 62px;
+   font-weight: 900;
+}
+
+h3{
+   font-size: 44px;
+   font-weight: 700;
+   color: #070211;
+   font-family: Inter;
+}
+
+h4{
+    font-family: Merriweather;
+    font-size: 28px;
+    font-weight: 400;
+    }
+
+h5{
+color: #F00;
+font-family:Inter;
+font-size: 22px;
+font-weight: 500;
+}
+
+p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+ }
+
+ /* ---------------------Shared Section End here-------------*/
+
+/* ---------------------Header Section start here-------------*/
+.header-container{
+    margin: 40px auto 0px;
+    width: 82%;
+    height: 512px;
+    max-width: 1320px;
+    max-height: 600px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(../images/Banner\ Image.png);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.header{
+    color: #FFF;
+    text-align: center;
+}
+.header h2{
+    color: #FFF;
+    margin-top: 16px;
+    font-family: 'Merriweather', serif;
+}
+
+.header h4{
+    color: #FFF;
+    margin-bottom: 0px;
+}
+
+
+/* ----------------Header section End---------------------*/
+
+/* -------------------Discount section start-------------*/
+
+.discount-container{
+    margin: 100px auto 0px;
+    padding: 0;
+}
+.discount{
+    text-align: center;
+
+}
+.discount h5{
+    padding: 42px 0 18px;
+}
+.discount-image{
+    margin-top: 42px;
+    width: 650px;
+    height: 410px;
+    max-width: 800px;
+    max-height: 500px;
+}
+
+/* ------------------Discount section End-----------*/
+
+/* ------------------Party section End---------------*/
+.party-container{
+    margin: 100px auto 0px;
+    width: 80%;
+    height: 512px;
+    border-radius: 15px;
+    max-width: 1320px;
+    max-height: 600px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Vectorrr.png);
+}
+.party-description h2{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: 6.5px;
+    margin-bottom: 22px;
+}
+.party-description p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom:42px;
+}
+
+.join-now{
+    margin-left:40px;
+    padding: 16px 32px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.party-image-container{
+    width: 319px;
+    height: 464px;
+}
+
+.party-image-container img{
+    width: 100%;
+    height: 100%;
+}
+
+/* ------------------Party section End---------------*/
+
+/* ------------------Event section start---------------*/
+
+.event-container{
+    margin: 100px auto 0px;
+    width: 80%;
+    padding: 100px 0;
+    max-width: 1320px;
+    max-height: 600px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.event-description{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.event-description h4{
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.event-container .join-now{
+    background-color: #F00;
+    margin: 0;
+    border: 0px;
+    border-radius: 8px;
+}
+
+/* ------------------Event section End---------------*/
+
+/* ------------------Upcoming section start---------------*/
+
+.upcoming-section-container{
+    margin: 100px auto 0px;
+    width: 80%;
+    max-width: 1320px;
+    max-height: 600px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.upcoming-section-heading h3{
+    margin: 15px 0px;
+    font-family: 'Merriweather', serif;
+}
+.upcoming-section-image{
+    width: 400px;
+    height: 400px;
+    border-radius: 400px;
+    border: 12px solid #F00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.upcoming-section-image img{
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 364.844px;
+}
+
+.upcoming-right-heading h3{
+    color: #F00;
+    margin-bottom: 15px;
+}
+.upcoming-right-image{
+    margin-top: 15px;
+    width: 140px;
+    height: 140px;
+}
+/* ------------------Upcoming section end---------------*/
+
+/* ------------------portfolio section start---------------*/
+
+.portfolio-container{
+    width: 80%;
+    margin: 100px auto 0px; 
+}
+
+.portfolio-container h3{
+    margin: 16px 0px 22px;
+    font-family: 'Merriweather', serif;
+}
+.portfolio-image img{
+    width: 342px;
+    height: 360px;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.portfolio-image-container{
+    margin-top: 44px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    flex-basis: auto;
+}
+
+/* ------------------portfolio section end---------------*/
+
+.newsletter-container{
+    margin: 100px auto 0px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 68px 0px;
+}
+
+.newsletter h3{
+    margin: 40px 0px 22px;
+    font-family: 'Merriweather', serif;
+}
+.newsletter img{
+    width: 142px;
+    height: 142px;
+}
+.news-subscribtion{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 48px auto 0px;
+}
+#email{
+    width: 65%;
+    height: 55px;
+    border: none;
+    background: #FFF;
+    border-radius: 50px 0px 0px 50px;
+}
+#subscribe {
+    width: 35%;
+    height: 55px;
+    border: none;
+    color: #FFF;
+    background: #F00;
+    border-radius: 0px 50px 50px 0px;
+}
+#email:placeholder-shown{
+    padding-left: 30px;
+}
