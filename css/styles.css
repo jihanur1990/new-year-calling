@@ -53,7 +53,8 @@ p{
 .header-container{
     margin: 40px auto 0px;
     width: 82%;
-    height: 512px;
+    min-height: 520px;
+    height: 68%;
     max-width: 1320px;
     max-height: 600px;
     border-radius: 16px;
@@ -109,10 +110,7 @@ p{
 .party-container{
     margin: 100px auto 0px;
     width: 80%;
-    height: 512px;
     border-radius: 15px;
-    max-width: 1320px;
-    max-height: 600px;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -268,6 +266,7 @@ p{
 
 /* ------------------portfolio section end---------------*/
 
+/* ------------------Newsletter section start---------------*/
 .newsletter-container{
     margin: 100px auto 0px;
     width: 80%;
@@ -279,7 +278,6 @@ p{
     background: rgba(255, 0, 0, 0.05);
     padding: 68px 0px;
 }
-
 .newsletter h3{
     margin: 40px 0px 22px;
     font-family: 'Merriweather', serif;
@@ -312,4 +310,47 @@ p{
 }
 #email:placeholder-shown{
     padding-left: 30px;
+}
+/* ------------------Newsletter section end---------------*/
+.footer-container{
+    margin: 100px auto 0px;
+    width: 80%;
+    background: #070211;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container p{
+    color: #FFF;
+}
+.contact{
+    display: flex; 
+}
+
+.footer-left{
+    width: 50%;
+    padding:45px 0px 45px 100px;
+}
+
+.footer-right{
+    width: 50%;
+    padding: 45px 100px 45px 0px;
+
+}
+.footer-left-img-container{
+    text-align: right;
+}
+.footer-left-img-container img, .footer-right-img-container img{
+    width: 60px;
+    height: 60px;
+    margin: 0px 12px;
+}
+.contact{
+    justify-content: center;
+}
+.p{
+    text-align: right;
+}
+hr{
+    margin: 30px 0px;
 }
