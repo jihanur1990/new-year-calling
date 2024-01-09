@@ -133,11 +133,12 @@ p{
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    margin-bottom:42px;
+    margin-bottom:38px;
 }
 
 .join-now{
-    margin-left:40px;
+    margin-left:30px;
+    margin-bottom: 20px;
     padding: 16px 32px;
     color: #FFF;
     text-align: center;
