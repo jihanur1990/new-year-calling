@@ -238,7 +238,57 @@ p{
     height: 140px;
 }
 /* ------------------Upcoming section end---------------*/
+/* ------------------Holiday sale section start---------------*/
+.holiday-sale-container{
+    width: 80%;
+    margin: 100px auto 0px;
+}
 
+.holiday-sale-tittle, .holiday-sale-image-container{
+    width: 100%;
+}
+
+.holiday-sale-image-container-1{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    position: relative;
+}
+.left-image{
+    position: absolute;
+    margin-top:110px;
+    margin-right: 500px;
+    z-index: 2;
+}
+
+.left-image img{
+    width: 600px;
+    height: 400px;
+    mix-blend-mode: multiply;
+    background-blend-mode: multiply;
+}
+.right-image img {
+ width: 400px;
+ height: 400px;
+ mix-blend-mode: multiply;
+}
+.middle-image{
+    position: absolute;
+    margin-top: 100px;
+    margin-right: 300px;
+    z-index: 6;
+}
+
+.middle-image img{
+    width: 200px;
+    height: 200px;
+}
+
+.holiday-sale-image-container-2 img{
+    width: 100%;
+    height: 200px;
+}
+/* ------------------Holiday sale section end---------------*/
 /* ------------------portfolio section start---------------*/
 
 .portfolio-container{
